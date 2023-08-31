@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Film</title>
+    <link rel="stylesheet" href="/lib/css_bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="p-2 mb-2">
+      <div class="navbar container">
+        <h1>Prime Film</h1>
+        <nav>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <button type="button" class="btn btn-danger me-5">
+                ASSINE AGORA
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-primary">ENTRAR</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="container mb-5">
+      <div
+        id="carousel-btn"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div data-bs-interval="3000" class="carousel-item active">
+            <img class="w-100" src="/img/slide1.jpg" alt="foto de filme" />
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="w-100" src="/img/slide2.jpg" alt="foto de filme" />
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="w-100" src="/img/slide3.jpg" alt="foto de filme" />
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="w-100" src="/img/slide4.jpg" alt="foto de filme" />
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="w-100" src="/img/slide5.jpg" alt="foto de filme" />
+          </div>
+        </div>
+        <button
+          data-bs-target="#carousel-btn"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel-btn"
+          data-bs-slide="next"
+          class="carousel-control-next"
+          type="button"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            type="button"
+            data-bs-target="#carousel-btn"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-btn"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-btn"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-btn"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-btn"
+            data-bs-slide-to="4"
+          ></button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="img/filme1.jpg" alt="imagem do filme bloodshot" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="img/filme2.jpg" alt="imagem do filme a mumia" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="img/filme3.jpg" alt="imagem do filme homem aranha" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="img/filme4.jpg" alt="imagem do filme deadpool 2" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <img
+                src="img/filme5.jpg"
+                alt="imagem do filme o esterminador do futuro"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="img/filme6.jpg" alt="imagem do filme 300" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/lib/js_bootstrap.bundle.min.js"></script>
+  </body>
+</html>
